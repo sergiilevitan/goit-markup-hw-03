@@ -13,6 +13,13 @@ body {
   color: var(--primary-text-color);
 }
 
+p,
+h1,
+h2,
+h3 {
+  margin: 0 0;
+}
+
 .list {
   list-style-type: none;
   padding: 0;
@@ -134,7 +141,7 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -142,7 +149,7 @@ img {
 .hero-btn {
   padding: 10px 32px;
   color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  background-color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -159,7 +166,7 @@ img {
 }
 
 /* advantage styles */
-.specifics.section {
+.advantages.section {
   padding-bottom: 0;
 }
 .advantage-head {
@@ -192,7 +199,7 @@ img {
 .workflow-title,
 .team-title {
   margin-top: 0;
-  margin-bottom: 50;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -226,6 +233,11 @@ img {
 .team-list .item:not(:last-child) {
   margin-right: 30px;
 }
+
+.tmdescription {
+  padding: 30px 0;
+}
+
 .team-member,
 .team-position {
   font-weight: 500;
@@ -234,14 +246,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-member {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
 
 .team-position {
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 10px;
   font-weight: 400;
   color: var(--grey-color);
 }
@@ -279,6 +286,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 }
 .address-list .item:not(:last-child) {
   margin-bottom: 9px;
@@ -333,8 +341,8 @@ img {
   /* border: 1px solid #eeeeee; */
 }
 .portfolio-border {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
+
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -346,36 +354,18 @@ img {
   margin-bottom: 0;
 }
 .portfolio-list-title {
-  margin-top: 0;
-  margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
+
   color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-list-text {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 24px;
-  margin-right: 24px;
+
   color: var(--grey-color);
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
 }
 /* 
-.portfolio-list-title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.portfolio-list-text {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--grey-color);
-} */
+.
